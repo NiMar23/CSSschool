@@ -12,7 +12,8 @@ header {
 }
 
 .nav_img {
-  /* position: float; */
+  position: relative;
+  top: 20px;
   width: 10%
 }
 
@@ -38,17 +39,6 @@ li {
   /* Width: 100%;
   border-right: 1px solid #332E23; */
 }
-
-/* a {
-  display: inline-block;
-  padding: 10px; */
-}
-
-/* li a {
-  text-decoration: none;
-  color: #FFFFFF; */
-} */
-
 
 main {
   /* background-color: #ffffff ; */
@@ -93,4 +83,17 @@ footer {
  flex-wrap: wrap;
  justify-content: space-between;
 }
+
+/*existing styling from part 1 commented out */
+
+/* li a {
+  text-decoration: none;
+  color: #FFFFFF;
+} */
+
+/* a {
+  display: inline-block;
+  padding: 10px; 
+}
+*/
 
